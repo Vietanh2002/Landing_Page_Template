@@ -1,0 +1,192 @@
+@media screen and (max-width: 992px) {
+   .header__logo {
+      padding: 0px 50px;
+   }
+
+   .header__list {
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      width: 100%;
+      background: #fff;
+      top: 42px;
+      z-index: 1;
+   }
+
+   .header__list.open {
+      display: flex;
+   }
+
+   .header__link {
+      width: 100%;
+   }
+
+   .header__toggle {
+      display: block;
+      padding: 0px 30px;
+   }
+
+   .header__btn {
+      margin: 20px 0px;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   .download__img {
+      transform: translate(0%, -17%);
+   }
+}
+
+@media screen and (max-width: 768px) {
+      /* ========== Header ============ */
+   .header__slider {
+      flex-wrap: wrap;
+   }
+
+   .header__slider .col-half {
+      width: 100%;
+   }
+      /* ========== Brand ============ */
+   .brand {
+      display: none;
+   }
+      /* ========== Feature ============ */
+   .features {
+      flex-wrap: wrap;
+   }
+
+   .features__container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .features__img {
+      width: 70%;
+   }
+
+   .features .container__img {
+      margin-right: 0px;
+   }
+
+   .features .col-half {
+      width: 100%;
+   }
+      /* ========== smart jackpot ============ */
+   .jackport__head {
+      flex-wrap: wrap;
+      padding-bottom: 50px;
+   }
+
+   .jackport__description {
+      max-width: 100%;
+   }
+
+   .jackport__content {
+      flex-wrap: wrap;
+      padding-bottom: 50px;
+   }
+
+   .jackport__content .col-third {
+      width: 100%;
+      text-align: center;
+   }
+      /* ========== design ============ */
+   .design {
+      flex-wrap: wrap;
+      padding-bottom: 50px;
+   }
+
+   .design .col-half {
+      width: 100%;
+   }
+
+   .design__section {
+      padding-bottom: 50px;
+   }
+
+   .design__container {
+      text-align: center;
+      max-width: 100%;
+   }
+      /* ========== reason ============ */
+   .reason {
+      padding-bottom: 50px;
+   }
+
+   .reason-content {
+      flex-wrap: wrap;
+   }
+
+   .reason-content .col-third {
+      width: 100%;
+   }
+      /* ========== Built ============ */
+   .built {
+      flex-wrap: wrap;
+      text-align: center;
+      padding-bottom: 50px;
+   }
+
+   .built .col-half {
+      width: 100%;
+   }
+
+   .built__info {
+      padding-bottom: 50px;
+   }
+
+   .built__content {
+      flex-wrap: wrap;
+      text-align: center;
+   }
+
+   .built__content .col-half {
+      width: 100%;
+   }
+      /* ========== Pricing ============ */
+   .pricing__menu {
+      flex-wrap: wrap;
+   }
+
+   .pricing__menu .col-half {
+      width: 100%;
+   }
+      /* ========== Testimonila ============ */
+   .test {
+      flex-wrap: wrap;
+   }
+
+   .test__sec {
+      text-align: center;
+   }
+
+   .test__img {
+      margin: 50px auto;
+      position: relative;
+      width: 20rem;
+      transform: translate(30%, 0%);
+   }
+
+   .test__info {
+      width: 100%;
+      padding-bottom: 50px;
+   }
+      /* ========== Download ============ */
+   .download {
+      flex-wrap: wrap;
+   }
+
+   .download .col-half {
+      width: 100%;
+      text-align: center;
+   }
+
+   .download .col-half:nth-child(1) {
+      padding-bottom: 50px;
+   }
+
+   .download__img {
+      position: relative;
+      width: 100%;
+   }
+}
